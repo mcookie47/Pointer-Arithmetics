@@ -15,9 +15,10 @@ void print(const int* start, const int* stop)
 {
 	const int* current = start;
 	while (current != stop) {
-		cout << *current << '\n';
+		cout << *current << ", ";
 		++current;		//increment pointer
 	}
+	cout << endl;
 }
 
 int main()
